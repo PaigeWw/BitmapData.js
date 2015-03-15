@@ -1,0 +1,24 @@
+{
+  "name": "BitmapData.js",
+  "version": "1.0.0",
+  "description": "NPM Package for BitmapData.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martinffx/BitmapData.js.git"
+  },
+  "keywords": [
+    "bitmap",
+    "jpeg",
+    "glitch"
+  ],
+  "author": "Peter Nitsch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinffx/BitmapData.js/issues"
+  },
+  "homepage": "https://github.com/martinffx/BitmapData.js"
+}

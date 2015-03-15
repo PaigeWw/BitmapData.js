@@ -1,4 +1,8 @@
-function ColorTransform(redMultiplier, greenMultiplier, blueMultiplier, alphaMultiplier, redOffset, greenOffset, blueOffset, alphaOffset)
+'use strict';
+
+function ColorTransform(redMultiplier, greenMultiplier, blueMultiplier,
+                        alphaMultiplier, redOffset, greenOffset, blueOffset,
+                        alphaOffset)
 {
 	this.redMultiplier=redMultiplier==undefined?1:redMultiplier;
 	this.greenMultiplier=greenMultiplier==undefined?1:greenMultiplier;
@@ -9,3 +13,5 @@ function ColorTransform(redMultiplier, greenMultiplier, blueMultiplier, alphaMul
 	this.blueOffset=blueOffset || 0;
 	this.alphaOffset=alphaOffset || 0;
 }
+
+module.export = ColorTransform;
