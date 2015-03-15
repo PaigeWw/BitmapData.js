@@ -17,7 +17,7 @@ module.export = {
     ColorTransform: ColorTransform,
     Matrix: Matrix,
     Simplex: Simplex,
-    Filtes: {
+    Filters: {
         ColorMatrixFilter: ColorMatrixFilter
     },
     Modes: {
